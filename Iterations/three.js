@@ -19,7 +19,8 @@ for (const greet of greetings) {
 }
 
 // Maps
-//map apne aap me ek object hai
+//map apne aap me ek object hai aur key values ke pair me values hold karti hai
+// map iterable hai
 const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United States of America")
@@ -30,7 +31,7 @@ map.set('IN', "India")
 // console.log(map);
 
 for (const [key, value] of map) {
-    // console.log(key, ':-', value);
+    // console.log(key, ':-', value); //destructure
 }
 
 const myObject = {
